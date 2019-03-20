@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<title>丢人普罗丢瑟的作业</title>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe|ZCOOL+XiaoWei" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<link rel="icon" type="image/png" href="pictures/25.png">
+</head>
+<body>
+	<header id="header"><h1>丢人的作业</h1></header>
+	<nav>
+		<ul>
+			<li><a href="#">辣鸡做的辣鸡导航栏→</a></li>
+			<li><a href="#header">页眉</a></li>
+			<li><a href="#article">写在前面</a></li>
+			<li id="drop_form"><a href="#form">普罗丢瑟调查</a>
+				<ul id="drop_form_list">
+					<li><a href="#fun_state">基础信息</a></li>
+					<li><a href="#pro_state">制作人信息</a></li>
+					<li><a href="#other_state">留言</a></li>
+				</ul>
+			</li>
+			<li><a href="#footer">页脚</a></li>
+		</ul>
+	</nav>
+	<main>
+		<article id="article">
+			<h3>写在前面</h3>
+			<p>非要自己写不是要显摆自己有多能，寝室里有人已经精通JavaScript了，有人都开始玩Spring了，而自己还在以龟速看css...不管别人信不信，自己是真的是一边流着泪自己怎么这么笨啊，一边慢吞吞地啃文档。。。</p>
+			<p>非要自己写没别的，只是给自己这两周一个交代（虽然说实话感觉根本写不出什么有技术含量的html...而且...是的，我还没啃完文档（但是再不开始动工怕是交不上作业了←明明你老老实实下一份html不就好了吗</p>
+			<p>可以说支撑自己看下去的动力是未来可以完全自力写自己的博客之类的东西，但是随着看下去越来越感觉（这东西更新换代太快了...而且东西还那么多，学不动啊QAQ</p>
+		</article>
+		<hr>
+		<form id="form">
+			<h3>普罗丢瑟调查</h3>
+			<div id="fun_state">
+				<p>
+					<label for="pname">普罗丢瑟名：</label>
+					<input type="text" name="pname" id="pname" required>
+				</p>
+				<p>
+					<label for="msex">性别：</label>
+					<span>
+						<input type="radio" name="psex" value="msex" id="msex" required>
+						<label for="msex">男</label>
+						<input type="radio" name="psex" value="fsex" id="fsex" required>
+						<label for="fsex">女</label>
+					</span>
+				</p>
+				<p>
+					<label for="pdate">生日：</label>
+					<input type="date" name="pdate" id="pdate" min="1900-01-01" max="2019-03-20" required>
+				</p>
+				<p>
+					<label for="pmail">邮箱：</label>
+					<input type="email" name="pmail" id="pmail" required>
+				</p>
+				<p>
+					<label for="ptel">手机：</label>
+					<input type="tel" name="prel" id="ptel" required>
+				</p>
+			</div>
+			<hr>
+			<div id="pro_state">
+				<p>
+					<label for="plv">plv：</label>
+					<input type="number" name="plv" id="plv" min="0" max="400" step="1" required>
+				</p>
+				<p>
+					<label for="pch">担当：</label>
+					<select name="pch" id="pch" required>
+						<optgroup label="Princess">
+							<option>天海春香</option>
+							<option>エミリー</option>
+							<option>春日未来</option>
+							<option>我那覇響</option>
+							<option>菊地真 </option>
+							<option>高坂海美</option>
+							<option>佐竹美奈子</option>
+							<option>高山紗代子</option>
+							<option>田中琴葉</option>
+							<option>徳川まつり</option>
+							<option>中谷育</option>
+							<option>七尾百合子 </option>
+							<option>萩原雪歩</option>
+							<option>福田のり子</option>
+							<option>松田亜利沙</option>
+							<option>矢吹可奈</option>
+							<option>横山奈緒</option>
+						</optgroup>
+						<optgroup label="Fairy">
+							<option>秋月律子</option>
+							<option>如月千早</option>
+							<option>北沢志保</option>
+							<option>四条貴音</option>
+							<option>ジュリア</option>
+							<option>白石紬</option>
+							<option>周防桃子</option>
+							<option>天空橋朋花</option>
+							<option>所恵美</option>
+							<option>永吉昴</option>
+							<option>二階堂千鶴</option>
+							<option>舞浜歩</option>
+							<option>真壁瑞希</option>
+							<option selected>水瀬伊織 </option>
+							<option>最上静香</option>
+							<option>百瀬莉緒</option>
+							<option>ロコ</option>
+						</optgroup>
+						<optgroup label="Angel">
+							<option>伊吹翼 </option>
+							<option>大神環</option>
+							<option>北上麗花 </option>
+							<option>木下ひなた</option>
+							<option>桜守歌織 </option>
+							<option>篠宮可憐</option>
+							<option>島原エレナ</option>
+							<option>高槻やよい</option>
+							<option>豊川風花</option>
+							<option>野々原茜</option>
+							<option>箱崎星梨花</option>
+							<option>馬場このみ </option>
+							<option>双海亜美</option>
+							<option>双海真美</option>
+							<option>星井美希</option>
+							<option>三浦あずさ</option>
+							<option>宮尾美也</option>
+							<option>望月杏奈</option>
+						</optgroup>
+						<optgroup label="Ex">
+							<option>詩花</option>
+						</optgroup>
+						<optgroup label="Other">
+							<option>876P</option>
+							<option>346P</option>
+							<option>315P</option>
+							<option>283P</option>
+							<option>其他P</option>
+							<option disabled>DD滚开啊（</option>
+						</optgroup>
+					</select>
+				</p>
+				<p>
+					<label for="pstyear">入坑年份：</label>
+					<span>
+						<input type="text" name="pstyear" id="pstyear" list="imasyears" required pattern="^20(0[6-9]|1[0-9])$">
+						<datalist id="imasyears">
+							<option>2006</option>
+							<option>2007</option>
+							<option>2008</option>
+							<option>2009</option>
+							<option>2010</option>
+							<option>2011</option>
+							<option>2012</option>
+							<option>2013</option>
+							<option>2014</option>
+							<option>2015</option>
+							<option>2016</option>
+							<option>2017</option>
+							<option>2018</option>
+							<option>2019</option>
+							<option>我也觉得有点强行用这个（</option>
+						</datalist>
+					</span>
+				</p>
+			</div>
+			<hr>
+			<div id="other_state">
+				<p>
+					<label>留言:</label>
+					<textarea rows="5" cols="20"></textarea>
+				</p>
+			</div>
+			<p id="buttondesu">
+				<input type="submit" name="" value="提交喽">
+				<input type="reset" name="" value="清空喽">
+			</p>
+		</form>
+	</main>
+	<footer id="footer"><p>虽然现在是只写了一半html的状态，但是已经看出来丢人的感觉了...(数个小时后)不过不管怎样熬夜吐血肝完了（感觉自己写一个网页真的好难...</p></footer>
+</body>
+</html>
