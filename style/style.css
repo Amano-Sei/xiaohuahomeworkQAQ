@@ -76,25 +76,25 @@ ul a, ul a:visited{
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) .5rem, rgba(0, 0, 0, 0) 4.5rem, rgba(0, 0, 0, 0.5)),
 				linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) .5rem),
 				linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) .5rem),
-				0 0/100% no-repeat url("../pictures/buttons.png");
+				0 0/cover no-repeat url("../pictures/buttons.png");
 }
 ul li:first-child a{
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) .5rem, rgba(0, 0, 0, 0) 4.5rem, rgba(0, 0, 0, 0.5)),
 				linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) .8rem),
 				linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) .5rem),
-				0 0/100% no-repeat url("../pictures/buttons.png");
+				0 0/cover no-repeat url("../pictures/buttons.png");
 }
 ul li:last-child a{
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) .5rem, rgba(0, 0, 0, 0) 4.5rem, rgba(0, 0, 0, 0.5)),
 				linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) .5rem),
 				linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) .8rem),
-				0 0/100% no-repeat url("../pictures/buttons.png");
+				0 0/cover no-repeat url("../pictures/buttons.png");
 }
 #drop_form_list a{
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) .5rem, rgba(0, 0, 0, 0) 4.5rem, rgba(0, 0, 0, 0.5)),
 				linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) .8rem),
 				linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) .8rem),
-				0 0/100% no-repeat url("../pictures/buttons.png");
+				0 0/cover no-repeat url("../pictures/buttons.png");
 }
 
 ul a:focus, ul a:hover {
