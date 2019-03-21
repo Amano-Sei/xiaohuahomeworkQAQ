@@ -1,7 +1,7 @@
 html{
 	font-family: 'ZCOOL KuaiLe', cursive;
 	font-size: 10px;
-	background: no-repeat 0 0/100% fixed url("../pictures/bg.jpg");
+	background: no-repeat 0 0/cover fixed url("../pictures/bg.jpg");
 }
 
 h1, h3{
